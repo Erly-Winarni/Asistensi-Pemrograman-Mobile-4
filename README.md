@@ -19,6 +19,24 @@ Repositori ini digunakan untuk **manajemen dan pengumpulan tugas praktikum** mah
 
 ---
 
+## 📋 Daftar Praktikan
+
+| No | NIM | Nama Lengkap | Angkatan |
+|:---:|---|---|:---:|
+| 1 | H071221027 | Ahmad Alim Arzaq | 2022 |
+| 2 | H071241009 | Mahesa Putri Lukman | 2024 |
+| 3 | H071241018 | Muhammad Alif Sakti | 2024 |
+| 4 | H071241027 | Moch Ichwanul Muslimin Mayang | 2024 |
+| 5 | H071241036 | A. Alya Musaenab Asmin | 2024 |
+| 6 | H071241055 | Muhammad Hairi | 2024 |
+| 7 | H071241065 | Akmal | 2024 |
+| 8 | H071241074 | Erly Winarni | 2024 |
+| 9 | H071241081 | Ahmad Hidayat | 2024 |
+| 10 | H071241083 | As'syiekril Fikryan Sarda | 2024 |
+| 11 | H071241093 | Moch. Syech Yusuf. M | 2024 |
+
+---
+
 ## 📁 Struktur Folder Repositori
 
 Setiap tugas praktikum memiliki folder tersendiri. Mahasiswa **wajib** membuat sub-folder dengan format identitas di dalam folder tugas yang sedang berjalan.
