@@ -1,6 +1,6 @@
 # 📹 Ketentuan Video Tugas Praktikum Mobile (Java)
 
-> **Tugas Praktikum 1 sampai 7** wajib diunggah ke YouTube sesuai ketentuan berikut.
+> **Tugas Praktikum 1 sampai 7** diunggah ke YouTube sesuai ketentuan berikut.
 
 ---
 
