@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <ImageView
+        android:id="@+id/iv_story_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_report_image" />
+
+    <TextView
+        android:id="@+id/tv_story_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Judul Story"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+</RelativeLayout>
