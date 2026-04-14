@@ -1,0 +1,63 @@
+# Android Studio & IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/modules/
+/.idea/deploymentTargetDropDown.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/compiler.xml
+/.idea/gradle.xml
+
+# Built artifacts
+bin/
+gen/
+out/
+build/
+app/build/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Gradle files
+.gradle/
+build/
+
+# Log files
+*.log
+
+# Android Captures
+/captures
+
+# External Native Build
+.externalNativeBuild
+.cxx/
+
+# NDK
+obj/
+
+# Keystore files (Sangat penting untuk tidak di-commit)
+*.jks
+*.keystore
+*.pk8
+*.p12
+google-services.json
+
+# Lint reports
+**/build/reports
+**/build/test-results
+**/build/outputs/lint-results
+**/build/outputs/mapping
+
+# Secrets
+secrets.properties
