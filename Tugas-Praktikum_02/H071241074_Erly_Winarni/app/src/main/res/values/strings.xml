@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instagram Profile</string>
+    <string name="edit_profile">Edit profil</string>
+    <string name="share_profile">Bagikan profil</string>
+    <string name="save">Selesai</string>
+</resources>
