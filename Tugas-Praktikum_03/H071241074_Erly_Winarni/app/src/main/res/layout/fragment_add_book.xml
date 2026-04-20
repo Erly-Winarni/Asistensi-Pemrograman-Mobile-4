@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_color"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:drawableStart="@drawable/ic_add_white"
+                android:text="Tambah Buku Baru"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_card"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Cover Buku"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/imgCoverPreview"
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_image_placeholder"
+                android:contentDescription="Cover Preview"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image_placeholder" />
+
+            <Button
+                android:id="@+id/btnPickImage"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/accent_color"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Pilih dari Galeri"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Judul Buku *" />
+            <EditText
+                android:id="@+id/etTitle"
+                style="@style/InputStyle"
+                android:hint="Masukkan judul buku"
+                android:inputType="textCapWords" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Penulis *" />
+            <EditText
+                android:id="@+id/etAuthor"
+                style="@style/InputStyle"
+                android:hint="Nama penulis"
+                android:inputType="textCapWords" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Tahun Terbit *" />
+            <EditText
+                android:id="@+id/etYear"
+                style="@style/InputStyle"
+                android:hint="Contoh: 2023"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Genre *" />
+            <EditText
+                android:id="@+id/etGenre"
+                style="@style/InputStyle"
+                android:hint="Contoh: Fantasi, Roman, Non-Fiksi"
+                android:inputType="textCapWords" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Rating" />
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:numStars="5"
+                android:progressTint="@color/star_color"
+                android:rating="0"
+                android:stepSize="0.5" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Sinopsis *" />
+            <EditText
+                android:id="@+id/etBlurb"
+                style="@style/InputStyle"
+                android:gravity="top"
+                android:hint="Tulis sinopsis singkat..."
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:minLines="4" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:text="Review / Ulasan" />
+            <EditText
+                android:id="@+id/etReview"
+                style="@style/InputStyle"
+                android:gravity="top"
+                android:hint="Tulis ulasanmu..."
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:minLines="3" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/primary_color"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Simpan Buku"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
