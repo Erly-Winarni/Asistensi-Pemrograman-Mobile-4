@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background berwarna -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primary_color" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- Icon buku di tengah -->
+    <item
+        android:top="20dp"
+        android:bottom="20dp"
+        android:left="15dp"
+        android:right="15dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#33FFFFFF" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</layer-list>
