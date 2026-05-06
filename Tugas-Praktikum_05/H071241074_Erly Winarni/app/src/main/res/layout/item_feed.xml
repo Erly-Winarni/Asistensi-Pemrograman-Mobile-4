@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:attr/windowBackground"
+    android:paddingBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivFeedAvatar"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/ic_avatar"
+            app:civ_border_color="#C13584"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/tvFeedUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFeedLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makassar"
+                android:textColor="#AAAAAA"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_menu_post"
+            app:tint="?android:attr/textColorPrimary" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivFeedImage"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/ivLike"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_like"
+            app:tint="?android:attr/textColorPrimary"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_comment"
+            app:tint="?android:attr/textColorPrimary"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_dm"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/ivSave"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_save"
+            app:tint="?android:attr/textColorPrimary" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLikesCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.234 suka"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:paddingStart="14dp"
+        android:paddingTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvFeedCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="3dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tvFeedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 jam lalu"
+        android:textColor="#777777"
+        android:textSize="11sp"
+        android:paddingStart="14dp"
+        android:paddingTop="4dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="12dp"
+        android:background="#222222" />
+
+</LinearLayout>

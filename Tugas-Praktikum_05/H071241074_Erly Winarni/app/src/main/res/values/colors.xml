@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="instagram_blue">#3797EF</color>
+    <color name="dark_surface">#121212</color>
+    <color name="divider_dark">#222222</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="story_gradient_start">#F58529</color>
+    <color name="story_gradient_end">#DD2A7B</color>
+    <color name="bg_button_secondary">#EFEFEF</color>
+    <color name="button_stroke">#DBDBDB</color>
+</resources>
